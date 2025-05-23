@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Image Gallery with Filter</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Image Gallery</h1>
+
+    <div class="filter-buttons">
+      <button onclick="filterGallery('all')">All</button>
+      <button onclick="filterGallery('nature')">Nature</button>
+      <button onclick="filterGallery('people')">People</button>
+      <button onclick="filterGallery('tech')">Tech</button>
+    </div>
+
+    <div class="gallery">
+      <div class="item nature"><img src="https://eskipaper.com/images/nature-27.jpg" alt="Nature"></div>
+      <div class="item people"><img src="https://cdn1.vectorstock.com/i/1000x1000/54/20/young-people-cartoon-vector-20405420.jpg" alt="People"></div>
+      <div class="item tech"><img src="http://assets.rappler.com/2AFB7D5E5C734656A2BF5933B04681AC/img/83611058FD43467D99AB4A81C271E237/shutterstock-business-technology.jpg" alt="Tech"></div>
+      <div class="item nature"><img src="https://eskipaper.com/images/nature-27.jpg" alt="Nature"></div>
+      <div class="item tech"><img src="http://assets.rappler.com/2AFB7D5E5C734656A2BF5933B04681AC/img/83611058FD43467D99AB4A81C271E237/shutterstock-business-technology.jpg" alt="Tech"></div>
+      <div class="item people"><img src="https://cdn1.vectorstock.com/i/1000x1000/54/20/young-people-cartoon-vector-20405420.jpg" alt="People"></div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
